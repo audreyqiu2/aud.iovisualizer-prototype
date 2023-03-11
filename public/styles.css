@@ -1,0 +1,63 @@
+body {
+  color: rgb(220, 220, 220);
+  background-color: rgb(34, 34, 34);
+  margin: 0 auto;
+  max-width: 80vw;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4rem 1rem;
+  /* color: rgb(220, 220, 220); */
+}
+
+h1 {
+  color: rgb(220, 220, 220);
+}
+
+button {
+  display: block;
+  padding: 12px 24px;
+  border: solid 1px rgb(220, 220, 220);
+  color: rgb(220, 220, 220);
+  background-color: rgb(34, 34, 34);
+}
+
+button:hover {
+  cursor: pointer;;
+}
+
+hr {
+  width: 24vw;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1vw;
+}
+
+li {
+  color: rgba(168, 168, 168, 0.7);
+}
+
+li:hover {
+  color: rgba(255, 175, 175, 0.8);
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#myPlaylistsHeading img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 99px;
+  margin-right: 1vw;
+}
